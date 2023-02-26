@@ -5,4 +5,5 @@ resources:
 - crd.yaml
 - vault-operator.yaml
 - rbac.yaml
+- application.yaml
 #- cr.yaml
