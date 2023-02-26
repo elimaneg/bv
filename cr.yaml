@@ -25,9 +25,9 @@ spec:
   # Specify threshold for renewing certificates. Valid time units are "ns", "us", "ms", "s", "m", "h".
   # tlsExpiryThreshold: 168h
 
-  ingress:
-    annotations: {}
-    spec: {}
+  #ingress:
+  #  annotations: {}
+  #  spec: {}
 
   # Use local disk to store Vault file data, see config section.
   volumes:
