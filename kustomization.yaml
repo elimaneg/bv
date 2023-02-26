@@ -5,5 +5,7 @@ resources:
 - crd.yaml
 - vault-operator.yaml
 - rbac.yaml
-- application.yaml
 #- cr.yaml
+- keycloakrealmimports.k8s.keycloak.org-v1.yaml
+- keycloaks.k8s.keycloak.org-v1.yaml
+- kubernetes.yaml
