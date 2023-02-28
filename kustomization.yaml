@@ -12,3 +12,4 @@ resources:
 - keycloak-postgres-creds.yaml
 - keycloak-postgres-db.yaml
 - keycloak-operator.yaml
+- keycloak-cr.yaml
