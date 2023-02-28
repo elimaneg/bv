@@ -8,4 +8,7 @@ resources:
 #- cr.yaml
 - keycloakrealmimports.k8s.keycloak.org-v1.yaml
 - keycloaks.k8s.keycloak.org-v1.yaml
-- kubernetes.yaml
+- keycloak-tls.yaml
+- keycloak-postgres-creds.yaml
+- keycloak-postgres-db.yaml
+- keycloak-operator.yaml

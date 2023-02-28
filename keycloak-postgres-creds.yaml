@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  password: cGdhZG1pbjEyMw==
+  username: cGdhZG1pbg==
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: keycloak-db-secret
