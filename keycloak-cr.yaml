@@ -16,6 +16,12 @@ spec:
       name: keycloak-db-secret
       key: password
   http:
+    httpEnabled: true
+    httpPort: 8180
+    httpsPort: 8443
     tlsSecret: keycloak-tls
   hostname:
     hostname: localhost
+    admin: localhost
+    strict: false
+    strictBackchannel: false
