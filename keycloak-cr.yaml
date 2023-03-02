@@ -17,11 +17,11 @@ spec:
       key: password
   http:
     httpEnabled: true
-    httpPort: 8180
-    httpsPort: 8443
-    tlsSecret: keycloak-tls
+    #httpPort: 8180
+    #httpsPort: 8443
+    #tlsSecret: keycloak-tls
   hostname:
-    hostname: localhost
-    admin: localhost
+    #hostname: localhost
+    #admin: localhost
     strict: false
     strictBackchannel: false
